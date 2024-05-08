@@ -122,7 +122,7 @@ def display_images_from_folder(folder_path):
     image_names = os.listdir(folder_path)
 
     # Filter out only image files (if needed)
-    image_names = [filename for filename in image_names if filename.endswith((".png", ".jpg", ".jpeg"))]
+    image_names = ['conv3d_1_all_FLAIR_GCAM.png', 'conv3d_2_all_FLAIR_GCAM.png', 'conv3d_3_all_FLAIR_GCAM.png', 'conv3d_4_all_FLAIR_GCAM.png', 'conv3d_5_all_FLAIR_GCAM.png']
 
     # Display images with separators
     cols = st.columns(5)
